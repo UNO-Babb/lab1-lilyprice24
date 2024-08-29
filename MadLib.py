@@ -13,9 +13,7 @@ def main():
   verb2 = input("Enter a verb: ")
   adjective2 = input("Enter an adjective: ")
   #Print the story with the user supplied words.
-  print("I like to walk my " + noun1 + " and " + noun2 + " during the " + adjective1 + " night. " )
-
-
+  print("I like to walk my " + noun1 + " and " + noun2 + " during the " + adjective1 + " night. " + "When I get home I " + verb1 + " and " + verb2 + " in my " + adjective2 + " backyard. ")
 #Call the main function if this is the file being run.
-if __name__ == '__main__':
+if __name__ == '__main__': 
     main()
